@@ -57,4 +57,4 @@ jobs:
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
           firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_WEB_HOSTING_E76D8 }}"
           channelId: live
-          projectId: web-hosting-e76d8
+          projectId: "${{ secrets.FIREBASE_PROJECT_ID }}"
